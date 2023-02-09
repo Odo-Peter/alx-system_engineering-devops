@@ -1,0 +1,5 @@
+#!/bin/bash
+cd ./0x00-shell_basics
+mkdir tmp
+cd tmp
+mkdir my_first_directory
