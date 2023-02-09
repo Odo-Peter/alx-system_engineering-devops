@@ -1,4 +1,2 @@
 #!/bin/bash
-ls -a -l
-ls -a -l ..
-ls -a -l ../../boot
+ls -a -l 0-current_working_directory /alx-system_engineering-devops/ /boot/
