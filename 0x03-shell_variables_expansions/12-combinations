@@ -1,3 +1,2 @@
 #!/bin/bash
-for letter1 in {a..z}; do printf "$letter1$letter2 "; done | grep -v oo 
 
