@@ -1,0 +1,9 @@
+#!/bin/bash
+for letterOne in {a..z}; do
+    for letterTwo in {a..z}; do
+    	if [$letterOne != "o"] || [letterTwo != "o"]; then
+	   echo -n "$letterOne$letterTwo"
+	fi
+      done
+     done
+     echo
