@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d ':' -f 1,6 /etc/passwd | sort 2,3 find . -empty | rev | cut -d '/' -f 1 | rev 
+getent passwd | cut -d ':' -f 1,6 
