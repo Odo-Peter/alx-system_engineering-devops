@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# This script prints the word "Best School" 10 times but on 9th iteration
+# prints "Hi" on a new line
+
+i=10
+
+while [ $i -gt 0 ]
+do
+	if [[ $i == 6 ]]; then
+	   echo $"bad luck"
+
+	elif [[ $i == 2 ]]; then
+	   echo $"good luck"
+
+	else
+	   echo $"Best School"
+
+	fi
+	((i--))
+done
