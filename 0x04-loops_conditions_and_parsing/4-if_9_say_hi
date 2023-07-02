@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# This script prints the word "Best School" 10 times but on 9th iteration
+# prints "Hi" on a new line
+
+i=10
+
+while [ $i -gt 0 ]
+do
+	if [[ $i == 1 ]]; then
+	   echo $"Hi"
+	fi
+	echo $"Best School"
+        ((i--))
+done
