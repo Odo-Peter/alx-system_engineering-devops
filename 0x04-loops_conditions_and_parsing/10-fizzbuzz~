@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This is a script  that displays numbers from 1 to 100.
+# And prints Fizz, Buzz or FizzBuzz at given conditions
+

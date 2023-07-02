@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# This is a script  that displays numbers from 1 to 100.
+# And prints Fizz, Buzz or FizzBuzz at given conditions
+
+for i in {1..100}
+
+do
+    if (( i % 3 == 0 )) && (( i % 5 == 0 ))
+        then
+	echo "FizzBuzz"
+    elif (( i % 3 != 0 )) && (( i % 5 == 0 ))
+        then
+	echo "Buzz"
+    elif (( i % 3 == 0 )) && (( i % 5 != 0 ))
+        then
+	echo "Fizz"
+    else
+	echo "$i"
+    fi
+
+done
