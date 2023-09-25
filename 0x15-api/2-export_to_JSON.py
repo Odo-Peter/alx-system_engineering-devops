@@ -23,7 +23,7 @@ if __name__ == "__main__":
                      "completed": task.get('completed'),
                      "username": name}
         l_task.append(dict_task)
-        d_task = {str(userid): l_task}
-        file_name = '{}.json'.format(userid)
-        with open(filename, mode='w') as f:
-            json.dump(d_task, f)
+    d_task = {str(userid): l_task}
+    file_name = '{}.json'.format(userid)
+    with open(filename, mode='w') as f:
+        json.dump(d_task, f)
